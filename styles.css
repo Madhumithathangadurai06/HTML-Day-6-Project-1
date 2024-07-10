@@ -1,0 +1,74 @@
+body{
+    background-color:orange ;
+}
+h1{
+    
+    text-align: center;
+    font-family: 'krona One',sans-serif;
+    color: navy;
+    margin-top: 50px;
+    margin-left:150px;
+    font-size: 300%;
+}
+h2{
+    text-align: center;
+    font-family: 'Krona One' sans-serif;
+    color: navy;
+    margin-top: 0px;
+    font-size: 150%;
+    margin-left: 100px;
+}
+#guessinput{
+    text-align: center;
+    margin-left: 450px;
+    color: navy;
+    border: none;
+    font-weight:bold;
+    height: 50px;
+    margin-top: 100px;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap ;
+}
+#btn{
+    background-color:gold ;
+    color: navy;
+    border-radius: 20px;
+    height: 50px;
+    border:none ;
+    margin-top: 10px;
+    font-weight:bold ;
+    width: 200px;
+    margin-left: 750px;
+    justify-content: center;
+    margin-right: 80px;
+    margin-bottom:10px;
+
+    
+    
+}
+h4{
+    padding: 5px;
+    font-family: 'krona One',sans-serif;
+    color: navy;
+    font-size: 130%;
+    text-align: center;
+    margin-left:120px;}    
+button:hover{
+    box-shadow: gray 5px 5px;
+}
+#guessinput,#btn{
+    border: 0px solid rgba(0, 0, 0, 0.445);
+    outline-style: solid;
+    outline-color: navy;
+    
+}
+msg{
+    max-width: 300px;
+    min-width: 300px;
+    background-color:gold ;
+}
